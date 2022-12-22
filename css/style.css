@@ -70,7 +70,7 @@
 @import url(./../vendor/animate/animate.min.css);
 @import url(./../vendor/aos/css/aos.min.css);
 @import url(./../vendor/perfect-scrollbar/css/perfect-scrollbar.css);
-@import url(./../vendor/metismenu/css/metisMenu.min.css);
+@import url(./../vendor/metis/css/metisMenu.min.css);
 :root {
   --primary: #222fb9;
   --secondary: #ff6175;
