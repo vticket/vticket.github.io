@@ -54,14 +54,14 @@ function addSwitcher()
 		body.attr('data-theme-version', this.value);
 		
 		if(this.value === 'light'){
-			jQuery(".nav-header .logo-abbr").attr("src", "./images/logo.png");
+			jQuery(".nav-header .logo-abbr").attr("src", "/images/logo.png");
 			jQuery(".nav-header .logo-compact").attr("src", "images/logo-text.png");
 			jQuery(".nav-header .brand-title").attr("src", "images/logo-text.png");
 			
 			setCookie('logo_src', './images/logo.png');
 			setCookie('logo_src2', 'images/logo-text.png');
 		}else{
-			jQuery(".nav-header .logo-abbr").attr("src", "./images/logo-white.png");
+			jQuery(".nav-header .logo-abbr").attr("src", "/images/logo-white.png");
 			jQuery(".nav-header .logo-compact").attr("src", "images/logo-text-white.png");
 			jQuery(".nav-header .brand-title").attr("src", "images/logo-text-white.png");
 			
@@ -173,19 +173,19 @@ function addSwitcher()
     
 	
 	jQuery("#nav_header_color_1").on('click',function(){
-		jQuery(".nav-header .logo-abbr").attr("src", "./images/logo.png");
+		jQuery(".nav-header .logo-abbr").attr("src", "/images/logo.png");
 		setCookie('logo_src', './images/logo.png');
 		return false;
     });
     
 	jQuery("#nav_header_color_2, #nav_header_color_3, #nav_header_color_4, #nav_header_color_5, #nav_header_color_6, #nav_header_color_7, #nav_header_color_8, #nav_header_color_9, #nav_header_color_10, #nav_header_color_11, #nav_header_color_12, #nav_header_color_13, #nav_header_color_14, #nav_header_color_15").on('click',function(){
-		jQuery(".nav-header .logo-abbr").attr("src", "./images/logo-white.png");
+		jQuery(".nav-header .logo-abbr").attr("src", "/images/logo-white.png");
 		setCookie('logo_src', './images/logo-white.png');
 		return false;
     });
    
     jQuery("#nav_header_color_3").on('click',function(){
-		jQuery(".nav-header .logo-abbr").attr("src", "./images/logo-white.png");
+		jQuery(".nav-header .logo-abbr").attr("src", "/images/logo-white.png");
 		setCookie('logo_src', './images/logo-white.png');
 		return false;
     });
