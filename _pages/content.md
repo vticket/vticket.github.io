@@ -1,7 +1,6 @@
 ---
 permalink: /content.html
 ---
-<!DOCTYPE html>
 <html lang="en">
 
 <head>

@@ -1,7 +1,6 @@
 ---
 permalink: /chat.html
 ---
-<!DOCTYPE html>
 <html lang="en">
 
 <head>

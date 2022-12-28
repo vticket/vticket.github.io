@@ -1,7 +1,6 @@
 ---
 permalink: /menu-1.html
 ---
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
